@@ -1,0 +1,25 @@
+{
+  "name": "@amandevelops/whoami",
+  "version": "1.0.0",
+  "description": "My first NPM package",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/AmanDevelops/gcp-cloud-run-nodejs-example.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "amandevelops",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.2"
+  }
+}
