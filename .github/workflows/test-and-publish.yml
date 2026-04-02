@@ -27,7 +27,7 @@ jobs:
         run: npx vitest run
 
       - name: Set version from tag
-        run: npm run version ${{ github.ref_name }} --no-git-tag-version
+        run: npm version ${{ github.ref_name }} --no-git-tag-version
 
       - name: Publish to npm
         run: npm publish --access public
