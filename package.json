@@ -14,7 +14,7 @@
     }
   },
   "repository": {
-    "url": "https://github.com/AmanDevelops/gcp-cloud-run-nodejs-example"
+    "url": "git+https://github.com/AmanDevelops/gcp-cloud-run-nodejs-example.git"
   },
   "publishConfig": {
     "access": "public"
